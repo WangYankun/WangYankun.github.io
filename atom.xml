@@ -10,7 +10,7 @@
   <rights>All rights reserved 2026, 坤</rights>
   <subtitle>记录想法，写写日记</subtitle>
   <title>坤的博客</title>
-  <updated>2026-04-27T14:08:46.183Z</updated>
+  <updated>2026-04-27T14:29:51.000Z</updated>
   <entry>
     <author>
       <name>坤</name>
@@ -20,12 +20,12 @@
     </content>
     <id>https://wangyankun.github.io/2026/04/27/hello-world/</id>
     <link href="https://wangyankun.github.io/2026/04/27/hello-world/"/>
-    <published>2026-04-27T14:08:46.183Z</published>
+    <published>2026-04-27T14:29:51.000Z</published>
     <summary>
       <![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for]]>
     </summary>
     <title>Hello World</title>
-    <updated>2026-04-27T14:08:46.183Z</updated>
+    <updated>2026-04-27T14:29:51.000Z</updated>
   </entry>
   <entry>
     <author>
@@ -44,6 +44,6 @@
 <p>搭建这个博客的初衷很简单 —— 想要一个属于自己的地方，记录想]]>
     </summary>
     <title>我的第一篇博客</title>
-    <updated>2026-04-27T14:10:08.976Z</updated>
+    <updated>2026-04-27T14:29:51.000Z</updated>
   </entry>
 </feed>
