@@ -3,9 +3,11 @@ backend:
   repo: WangYankun/WangYankun.github.io
   branch: main
   # GitHub OAuth 配置 - 需要坤总自行创建 OAuth App 后填写
-  # 创建地址：https://github.com/settings/developers
-  Authorization callback URL: https://wangyankun.github.io/admin/
-  # 创建后填入 client_id:
+  # 1. 打开 https://github.com/settings/developers → OAuth Apps → New OAuth App
+  # 2. Application name: 坤的博客后台
+  # 3. Homepage URL: https://wangyankun.github.io
+  # 4. Authorization callback URL: https://wangyankun.github.io/admin/
+  # 5. 创建后得到 Client ID，填入下方：
   client_id: Ov23lil7tzIe9Im4J1Tb
 
 # 发布方式 - 直接提交到 main 分支
