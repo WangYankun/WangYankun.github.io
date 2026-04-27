@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name>坤</name>
+  </author>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  <id>https://wangyankun.github.io/</id>
+  <link href="https://wangyankun.github.io/" rel="alternate"/>
+  <link href="https://wangyankun.github.io/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, 坤</rights>
+  <subtitle>记录想法，写写日记</subtitle>
+  <title>坤的博客</title>
+  <updated>2026-04-27T14:08:46.183Z</updated>
+  <entry>
+    <author>
+      <name>坤</name>
+    </author>
+    <content>
+      <![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]>
+    </content>
+    <id>https://wangyankun.github.io/2026/04/27/hello-world/</id>
+    <link href="https://wangyankun.github.io/2026/04/27/hello-world/"/>
+    <published>2026-04-27T14:08:46.183Z</published>
+    <summary>
+      <![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for]]>
+    </summary>
+    <title>Hello World</title>
+    <updated>2026-04-27T14:08:46.183Z</updated>
+  </entry>
+  <entry>
+    <author>
+      <name>坤</name>
+    </author>
+    <category term="日常" scheme="https://wangyankun.github.io/categories/%E6%97%A5%E5%B8%B8/"/>
+    <category term="随笔" scheme="https://wangyankun.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    <content>
+      <![CDATA[<h2 id="你好，世界！"><a href="#你好，世界！" class="headerlink" title="你好，世界！"></a>你好，世界！</h2><p>这是我的个人博客的第一篇文章。</p><p>搭建这个博客的初衷很简单 —— 想要一个属于自己的地方，记录想法、分享笔记、写写日记。</p><h2 id="为什么选择-Hexo？"><a href="#为什么选择-Hexo？" class="headerlink" title="为什么选择 Hexo？"></a>为什么选择 Hexo？</h2><p>在选择博客框架的时候，我考虑了几个方案：</p><ol><li><strong>WordPress</strong> — 功能强大，但太重了</li><li><strong>Hugo</strong> — 构建速度快，但主题生态不如 Hexo</li><li><strong>Hexo</strong> — Node.js 生态，主题丰富，中文社区活跃 ✅</li></ol><p>最终选择了 Hexo + NexT 主题，配合 GitHub Pages 免费部署。</p><h2 id="博客特性"><a href="#博客特性" class="headerlink" title="博客特性"></a>博客特性</h2><ul><li>✅ 响应式设计，手机&#x2F;平板&#x2F;电脑都能看</li><li>✅ 深色模式支持</li><li>✅ 评论系统（Giscus）</li><li>✅ RSS 订阅</li><li>✅ 代码高亮</li><li>✅ 站内搜索</li></ul><h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>以后会在这里记录一些想法和技术笔记，欢迎大家常来逛逛。</p><hr><p><em>2026年4月27日，于博客诞生之日</em></p>]]>
+    </content>
+    <id>https://wangyankun.github.io/2026/04/27/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</id>
+    <link href="https://wangyankun.github.io/2026/04/27/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+    <published>2026-04-27T06:15:00.000Z</published>
+    <summary>
+      <![CDATA[<h2 id="你好，世界！"><a href="#你好，世界！" class="headerlink" title="你好，世界！"></a>你好，世界！</h2><p>这是我的个人博客的第一篇文章。</p>
+<p>搭建这个博客的初衷很简单 —— 想要一个属于自己的地方，记录想]]>
+    </summary>
+    <title>我的第一篇博客</title>
+    <updated>2026-04-27T14:10:08.976Z</updated>
+  </entry>
+</feed>
