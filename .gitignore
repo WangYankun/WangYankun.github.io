@@ -3,3 +3,4 @@ db.json
 public/
 .deploy_git/
 .DS_Store
+.github/
