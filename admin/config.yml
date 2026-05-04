@@ -2,8 +2,6 @@ backend:
   name: github
   repo: WangYankun/WangYankun.github.io
   branch: main
-  # Decap CMS 官方认证代理（GitHub Pages 专用，免费）
-  auth_endpoint: https://api.decapcms.org/auth
   client_id: Ov23lil7tzIe9Im4J1Tb
 
 # 媒体文件存放路径
