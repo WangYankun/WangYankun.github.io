@@ -1,0 +1,193 @@
+# NexT Theme Configuration
+# ===============================================================
+
+# Theme Core
+cache:
+  enable: true
+
+minify: false
+
+# Scheme Settings
+scheme: Muse
+darkmode: true
+
+# Menu Settings
+menu:
+  home: / || fa fa-home
+  about: /about/ || fa fa-user
+  archives: /archives/ || fa fa-archive
+
+menu_settings:
+  icons: true
+  badges: false
+
+# Sidebar Settings
+sidebar:
+  position: left
+  width_expanded: 320
+  display: post
+  padding: 18
+
+# Avatar
+avatar:
+  url: /images/avatar.gif
+  rounded: true
+  opacity: 1
+  rotated: false
+
+# Footer Settings
+footer:
+  since: 2026
+  icon:
+    name: fa fa-heart
+    animated: true
+    color: "#ff0000"
+  copyright: 'WangYankun'
+  powered: true
+
+# Creative Commons
+creative_commons:
+  license: by-nc-sa
+  sidebar: false
+  post: false
+
+# Font Settings (use system fonts for better China accessibility)
+font:
+  enable: true
+  host:
+  global:
+    external: false
+    family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif
+    size:
+  title:
+    external: false
+    family:
+    size:
+  headings:
+    external: false
+    family:
+    size:
+  logo:
+    external: false
+    family:
+    size:
+  codes:
+    external: false
+    family:
+    size:
+
+# Code Block Settings
+codeblock:
+  theme:
+    light: default
+    dark: atom-one-dark
+  style: flat
+  copy_button:
+    enable: true
+    show_result: true
+  fold:
+    enable: false
+
+# Bookmark
+bookmark:
+  enable: true
+  save: auto
+
+# Copy Protection
+copybtn:
+  enable: true
+  copyright:
+    enable: false
+
+# Giscus Comment System
+giscus:
+  enable: true
+  repo: WangYankun/blog-comments
+  repo_id: R_kgDOSOAn3A
+  category: Announcements
+  category_id: DIC_kwDOSOAn3M4C7zhm
+  mapping: pathname
+  strict: 0
+  reactions_enabled: 1
+  emit_metadata: 0
+  input_position: top
+  theme:
+    light: light
+    dark: dark_dimmed
+  lang: zh-CN
+  loading: lazy
+
+# Comments Settings
+comments:
+  use: giscus
+  lazy: true
+  text: true
+
+# Search
+local_search:
+  enable: true
+  trigger: auto
+  top_n_per_article: 1
+  unescape: false
+  preload: false
+
+# RSS
+feed:
+  enable: true
+  type:
+    - atom
+    - rss2
+  path:
+    - atom.xml
+    - rss2.xml
+  limit: 20
+  hub:
+  content: true
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template:
+
+# Pangu (Chinese typography)
+pangu:
+  enable: true
+
+# Quick Back to Top
+back2top:
+  enable: true
+  sidebar: false
+  scrollpercent: true
+
+# Reading Progress
+reading_progress:
+  enable: true
+  color: "#37c6c6"
+  height: 3px
+
+# TagCloud
+tagcloud:
+  min: 12
+  max: 30
+  start: "#ccc"
+  end: "#111"
+  amount: 200
+  orderby: name
+  order: 1
+  separator: ' '
+
+# Social Links
+social:
+  GitHub: https://github.com/WangYankun || fab fa-github
+  E-Mail: mailto:wangyankun0214@gmail.com || fa fa-envelope
+  RSS: /atom.xml || fa fa-rss
+
+social_icons:
+  enable: true
+  icons_only: false
+  visible: true
+
+# Custom Styles
+custom_file_path:
+  style: source/_data/styles.styl
