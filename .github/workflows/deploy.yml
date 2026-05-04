@@ -1,0 +1,71 @@
+name: Deploy Blog to GitHub Pages
+
+on:
+  push:
+    branches: [source, main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source branch
+        uses: actions/checkout@v4
+        with:
+          ref: source
+
+      - name: Checkout main for posts
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: _main
+          sparse-checkout: |
+            source/_posts
+            source/uploads
+
+      - name: Merge posts from main
+        run: |
+          rm -rf source/_posts source/uploads
+          mkdir -p source
+          cp -r _main/source/_posts source/ 2>/dev/null || true
+          cp -r _main/source/uploads source/ 2>/dev/null || true
+          rm -rf _main
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: |
+          npm ci
+          npm install hexo-generator-feed hexo-deployer-git hexo-generator-search --save
+
+      - name: Build
+        run: npx hexo generate
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
