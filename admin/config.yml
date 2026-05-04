@@ -3,6 +3,7 @@ backend:
   repo: WangYankun/WangYankun.github.io
   branch: main
   client_id: Ov23lil7tzIe9Im4J1Tb
+  auth_type: implicit
 
 # 媒体文件存放路径
 media_folder: "source/uploads"
