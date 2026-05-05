@@ -30,7 +30,7 @@ sidebar:
 
 # Avatar
 avatar:
-  url: /images/lvdouwa.jpg
+  url: /images/avatar.gif
   rounded: true
   opacity: 1
   rotated: false
@@ -42,7 +42,7 @@ footer:
     name: fa fa-heart
     animated: true
     color: "#ff0000"
-  copyright: 'WangYankun'
+  copyright: 'Kun'
   powered: true
 
 # Creative Commons
@@ -110,7 +110,7 @@ giscus:
   strict: 0
   reactions_enabled: 1
   emit_metadata: 0
-  input_position: top
+  input_position: bottom
   theme:
     light: light
     dark: dark_dimmed
@@ -179,8 +179,8 @@ tagcloud:
 
 # Social Links
 social:
-  GitHub: https://github.com/WangYankun || fab fa-github
-  E-Mail: mailto:wangyankun0214@gmail.com || fa fa-envelope
+  GitHub: https://github.com/yourname || fab fa-github
+  E-Mail: mailto:yourname@example.com || fa fa-envelope
   RSS: /atom.xml || fa fa-rss
 
 social_icons:
