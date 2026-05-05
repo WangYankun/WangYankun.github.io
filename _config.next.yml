@@ -28,6 +28,14 @@ sidebar:
   display: post
   padding: 18
 
+# Table of Contents
+toc:
+  enable: true
+  number: true
+  wrap: false
+  expand_all: false
+  max_depth: 3
+
 # Avatar
 avatar:
   url: /images/avatar.gif
