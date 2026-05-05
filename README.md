@@ -48,8 +48,8 @@ npx hexo new "文章标题"
 然后在 `source/_posts/` 目录下编辑生成的 Markdown 文件。
 
 ## 文档
-
-详细使用指南请查看 [docs/使用指南.md](docs/使用指南.md)
+ 
+项目总结请查看 [个人博客搭建项目总结](https://wangyankun.github.io/2026/05/05/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E9%A1%B9%E7%9B%AE%E6%80%BB%E7%BB%93/)
 
 ## License
 
